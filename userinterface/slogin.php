@@ -18,7 +18,7 @@
 
 
     <div class="mainDiv">
-        <div class="innerDiv">
+        <div class="innerDiv" id="innerdiv">
 
             <div class="container">
                 <div class="row" style="margin-top: 2%;">
@@ -26,7 +26,7 @@
 
                     </div>
                     <div class="col-md-8">
-                        <label class="text-info">
+                        <label class="text-info" id="lblrollno">
                             <h4>Roll No.</h4>
                         </label>
                     </div>
@@ -39,7 +39,7 @@
 
                     </div>
                     <div class="col-md-8">
-                        <input class="loginrow" type="text">
+                        <input class="loginrow" type="text" id="txtrollno">
                     </div>
                     <div class="col-md-2">
 
@@ -63,7 +63,7 @@
 
                     </div>
                     <div class="col-md-8">
-                        <input class="loginrow" type="password">
+                        <input class="loginrow" type="password" id="txtpassword">
                     </div>
                     <div class="col-md-2">
 
@@ -75,7 +75,7 @@
                     </div>
                     <div class="col-md-8">
                         <div style="width:100%; display:flex; justify-content:end">
-                            <button class="btn btn-success">LOGIN</button>
+                            <button class="btn btn-success" id="btnloggin">LOGIN</button>
                         </div>
                     </div>
                     <div class="col-md-2">
@@ -84,12 +84,18 @@
                 </div>
             </div>
 
+            <label id="lblerrmessage" style="background: red;">
+
+            </label>
+
         </div>
     </div>
 
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="/SIMS/css/boostrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/SIMS/jquerry/jquerry.js"></script>
+    <script src="/SIMS/userinterface/slogin.js"></script>
+
 
 </body>
 
